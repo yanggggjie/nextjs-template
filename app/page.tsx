@@ -1,5 +1,6 @@
-import Image from 'next/image'
+import { twMerge } from 'tailwind-merge'
+interface Props {}
 
-export default function Home() {
-  return <main></main>
+export default function Page({}: Props) {
+  return <div></div>
 }
